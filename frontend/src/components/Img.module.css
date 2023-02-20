@@ -1,0 +1,75 @@
+.content {
+  position: relative;
+  padding-left: 120px;
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.img-candidate {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+}
+
+.name-candidate {
+  position: relative;
+  display: block;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 35px;
+  color: #202124;
+  margin-bottom: 10px;
+}
+.info-candidate {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 5px;
+  list-style: none;
+}
+.job {
+  display: block;
+  font-size: 14px;
+  color: #277ae0;
+  line-height: 19px;
+  padding-left: 0;
+  margin-right: 1em;
+}
+.date {
+  position: relative;
+  font-size: 14px;
+  line-height: 22px;
+  color: dimgray;
+  font-weight: 400;
+  padding-left: 25px;
+  margin-bottom: 5px;
+  margin-right: 30px;
+}
+.icon-fa-clock {
+  background-color: white;
+  color: dimgray;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.description {
+  position: relative;
+  font-size: 15px;
+  line-height: 26px;
+  color: dimgray;
+  margin-bottom: 26px;
+  display: block;
+}
+.description p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
